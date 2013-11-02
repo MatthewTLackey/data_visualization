@@ -111,7 +111,7 @@ File.open('data.html', 'w') do |f|
       f.write("<div class='graph_container'>")
          
          f.write("<div class='old_graph'><h5>1991</h5><h6>(in billions of US dollars)</h6>")
-          old_array[0..9].reverse.each{|x| f.write("<div class='barchart' style='height:#{(x.exports.to_i/1000000000)}px'> #{x.name[0]}</div>")}
+          old_array[0..9].reverse.each{|x| f.write("<div class='old_barchart' style='height:#{(x.exports.to_i/1000000000)}px'> #{x.name[0]}</div>")}
         f.write("</div>")
 
         f.write("<div class='new_graph'><h5>2011</h5><h6>(in billions of US dollars)</h6>")

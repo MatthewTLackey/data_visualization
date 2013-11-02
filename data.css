@@ -3,6 +3,7 @@ body{
   background-color: #F2F0A5;
   color: #1D7324;
   border-radius: 10px;
+  font-family: Georgia;
 }
 
 
@@ -87,21 +88,34 @@ td{
 }
 
 .barchart{
-  background-color: black;
-  color:#BF7ABF;
+  background-color: #1D7324;
+  color:#F2F0A5;
   width: 25px;
   text-align: center;
   display: inline-block;
   vertical-align: bottom;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  
-  
+   
+}
+.old_barchart{
+  background-color: #1D7324;
+  color:#F2F0A5;
+  width: 25px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: bottom;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 80%;
+  margin-top: 80px;
+
 }
 .new_graph{
   float: left;
   display: inline-block;
   vertical-align: bottom;
+   margin-bottom: 20px;
 
 }
 
@@ -109,6 +123,7 @@ td{
   float:left;
   display: inline-block;
   vertical-align: bottom;
+
 
 }
 
